@@ -31,3 +31,19 @@ This research project investigates the effectiveness of machine learning models 
 ## Installation and Usage
 
 1. Clone the repository:
+   https://github.com/ShivaliSDhage/supply_chain_risk_analytis_and_predictions.git
+2. Install required packages: pip install -r requirements.txt
+3. Run the main script: python supply_chain_analytics_final.py
+
+## Data Sources
+
+- Supply Chain Operations Data (Brunel University London Research Dataset) : https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015
+- EM-DAT (Emergency Events Database) maintained by the Centre for Research on the Epidemiology of Disasters (CRED)
+- NOAA Global Historical Climatology Network Daily (GHCN-Daily)
+
+## Future Work
+
+- Incorporate real-time data streams for more dynamic predictions
+- Explore transfer learning techniques for improved generalization
+- Develop a user-friendly interface for practical implementation in industry settings
+
