@@ -21,15 +21,15 @@ from datetime import datetime, timedelta
 # import datahorse
 plt.style.use('seaborn')
 
-freight_rates = pd.read_csv('/content/drive/MyDrive/data/supply_chain/FreightRates-Table.csv')
-order_list = pd.read_csv('/content/drive/MyDrive/data/supply_chain/OrderList-Table.csv')
-plant_ports = pd.read_csv('/content/drive/MyDrive/data/supply_chain/PlantPorts-Table.csv')
-products_per_plant = pd.read_csv('/content/drive/MyDrive/data/supply_chain/ProductsPerPlant-Table.csv')
-wh_capacities = pd.read_csv('/content/drive/MyDrive/data/supply_chain/WhCapacities-Table.csv')
-vmi_customers = pd.read_csv('/content/drive/MyDrive/data/supply_chain/VmiCustomers-Table.csv')
-em_dat = pd.read_csv('/content/drive/MyDrive/data/em-dat.csv')
-wh_costs = pd.read_csv('/content/drive/MyDrive/data/supply_chain/WhCosts-Table.csv')
-weather_history = pd.read_csv('/content/drive/MyDrive/data/weatherHistory.csv')
+freight_rates = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/FreightRates-Table.csv')
+order_list = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/OrderList-Table.csv')
+plant_ports = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/PlantPorts-Table.csv')
+products_per_plant = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/ProductsPerPlant-Table.csv')
+wh_capacities = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/WhCapacities-Table.csv')
+vmi_customers = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/VmiCustomers-Table.csv')
+em_dat = pd.read_csv('/content/drive/MyDrive/Processed Data Files/em-dat.csv')
+wh_costs = pd.read_csv('/content/drive/MyDrive/Processed Data Files/supply_chain/WhCosts-Table.csv')
+weather_history = pd.read_csv('/content/drive/MyDrive/Processed Data Files/weatherHistory.csv')
 
 # Displaying the first few rows and basic info of each dataset
 datasets_info = {
